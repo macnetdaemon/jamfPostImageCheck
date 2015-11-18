@@ -6,14 +6,14 @@
 myerror=0;
 missing="";
 
-#----------- user defined: the package list array ------------
-# The packagelist variable (below) is the only line you have to edit.
+#----------- user defined: the package list array variable ------------
+# The packagelist array variable (below) is the only line you have to edit.
 # Simply enter the package receipt names delimited by spaces.
 # Be sure to put quotes around receipts with spaces in the name (or escape the spaces with \ )
 
 packagelist=(packageName1 PackageName2 'Package Name 3')
 
-#----------- end of user defined: package list array ------------
+#----------- end of user defined: package list array variable ------------
 
 # iterate through the array to search for the package receipts.
 # on success or fail set myerror to 0 : false or 1 : true
