@@ -9,7 +9,7 @@ missing="";
 #----------- define the package list array ------------
 # Be sure to put quotes around receipts with spaces in the name (or escape the spaces with \ )
 
-packagelist=(packageName1 PackageName2 "Package Name 3")
+packagelist=(packageName1 PackageName2 'Package Name 3')
 
 # iterate through the array to search for the package receipts.
 # on success or fail set myerror to 0 : false or 1 : true
